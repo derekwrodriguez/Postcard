@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet var messageLabel: UILabel!
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        //GITHUB IS FOR PIMPS
         messageLabel.hidden  = false;
         messageLabel.text = enterMessageTextField.text;
         enterMessageTextField.text = "";
