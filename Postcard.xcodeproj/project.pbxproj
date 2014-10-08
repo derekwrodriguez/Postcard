@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934C2F1A19DB1439007762B9 /* iOS wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 934C2F1919DB1439007762B9 /* iOS wallpaper.jpg */; };
+		934C2F1C19DB1E8D007762B9 /* stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 934C2F1B19DB1E8D007762B9 /* stamp.jpg */; };
 		93AB731719D33AC50096B5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AB731619D33AC50096B5ED /* AppDelegate.swift */; };
 		93AB731919D33AC50096B5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AB731819D33AC50096B5ED /* ViewController.swift */; };
 		93AB731C19D33AC50096B5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AB731A19D33AC50096B5ED /* Main.storyboard */; };
 		93AB731E19D33AC50096B5ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AB731D19D33AC50096B5ED /* Images.xcassets */; };
 		93AB732119D33AC50096B5ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AB731F19D33AC50096B5ED /* LaunchScreen.xib */; };
 		93AB732D19D33AC50096B5ED /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AB732C19D33AC50096B5ED /* PostcardTests.swift */; };
+		93AB733719D341920096B5ED /* iOS wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93AB733619D341920096B5ED /* iOS wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		934C2F1919DB1439007762B9 /* iOS wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS wallpaper.jpg"; sourceTree = "<group>"; };
+		934C2F1B19DB1E8D007762B9 /* stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpg; sourceTree = "<group>"; };
 		93AB731119D33AC50096B5ED /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AB731519D33AC50096B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AB731619D33AC50096B5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		93AB732619D33AC50096B5ED /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AB732B19D33AC50096B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AB732C19D33AC50096B5ED /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		93AB733619D341920096B5ED /* iOS wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iOS wallpaper.jpg"; path = "../../../../Downloads/iOS wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		93AB731419D33AC50096B5ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				934C2F1B19DB1E8D007762B9 /* stamp.jpg */,
+				93AB733619D341920096B5ED /* iOS wallpaper.jpg */,
+				934C2F1919DB1439007762B9 /* iOS wallpaper.jpg */,
 				93AB731519D33AC50096B5ED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93AB731C19D33AC50096B5ED /* Main.storyboard in Resources */,
+				934C2F1C19DB1E8D007762B9 /* stamp.jpg in Resources */,
 				93AB732119D33AC50096B5ED /* LaunchScreen.xib in Resources */,
+				934C2F1A19DB1439007762B9 /* iOS wallpaper.jpg in Resources */,
 				93AB731E19D33AC50096B5ED /* Images.xcassets in Resources */,
+				93AB733719D341920096B5ED /* iOS wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				93AB733219D33AC50096B5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93AB733319D33AC50096B5ED /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				93AB733519D33AC50096B5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
